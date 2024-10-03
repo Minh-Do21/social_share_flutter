@@ -45,5 +45,37 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fb</string> <!-- Scheme cho Facebook -->
+      <string>instagram</string> <!-- Scheme cho Instagram -->
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+    <key>FacebookAppID</key>
+    <string>529418389734371</string>
+    <key>FacebookClientToken</key>
+    <string>89bacd9ba526cc157ec7728f517b5eab</string>
+    <key>FacebookDisplayName</key>
+    <string>YOUR_APP_NAME</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to select an image from your camera or photo library when you add an item to the map, so that you can add an image to your item.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need access to add photos to your library.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs access to select an image from your camera or photo library when you add an item to the map, so that you can add an image to your item.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb529418389734371</string>
+        </array>
+      </dict>
+    </array>
 </dict>
 </plist>
