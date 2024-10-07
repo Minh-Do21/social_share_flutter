@@ -53,6 +53,10 @@ android {
     }
 }
 
+dependencies {
+    implementation 'com.facebook.android:facebook-share:latest.release'
+}
+
 flutter {
     source = "../.."
 }
