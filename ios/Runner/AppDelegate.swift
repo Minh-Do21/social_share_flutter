@@ -14,18 +14,16 @@ import UIKit
           let shareChannel = FlutterMethodChannel(name: "com.example.social_share_flutter",binaryMessenger: controller.binaryMessenger)
           
       shareChannel.setMethodCallHandler { (call, result) in
-             if call.method == "shareLinkOnFacebook" {
+             if call.method == "shareToFacebook" {
                  let args = call.arguments as! [String: Any]
-                 
                  
                  // Sử dụng ép kiểu an toàn cho các trường optional
                  let url = args["url"] as? String
                  let imagePath = args["imagePath"] as? String
                          
-                 
                  self.shareImageAndLinkOnFacebook(viewController: controller, imagePath: imagePath, url: url, result: result)
 
-             } else {
+             }else {
                  result(FlutterMethodNotImplemented)
              }
          }

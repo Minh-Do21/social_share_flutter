@@ -10,19 +10,11 @@ PODS:
   - FBSDKShareKit (15.1.0):
     - FBSDKCoreKit (= 15.1.0)
   - Flutter (1.0.0)
-  - flutter_facebook_auth (5.0.2):
-    - FBSDKCoreKit (~> 15.1.0)
-    - FBSDKLoginKit (~> 15.1.0)
-    - Flutter
-  - flutter_secure_storage (6.0.0):
-    - Flutter
   - image_picker_ios (0.0.1):
     - Flutter
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
-  - share_plus (0.0.1):
-    - Flutter
   - url_launcher_ios (0.0.1):
     - Flutter
 
@@ -31,11 +23,8 @@ DEPENDENCIES:
   - FBSDKLoginKit
   - FBSDKShareKit
   - Flutter (from `Flutter`)
-  - flutter_facebook_auth (from `.symlinks/plugins/flutter_facebook_auth/ios`)
-  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
   - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
-  - share_plus (from `.symlinks/plugins/share_plus/ios`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
 
 SPEC REPOS:
@@ -49,16 +38,10 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  flutter_facebook_auth:
-    :path: ".symlinks/plugins/flutter_facebook_auth/ios"
-  flutter_secure_storage:
-    :path: ".symlinks/plugins/flutter_secure_storage/ios"
   image_picker_ios:
     :path: ".symlinks/plugins/image_picker_ios/ios"
   path_provider_foundation:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
-  share_plus:
-    :path: ".symlinks/plugins/share_plus/ios"
   url_launcher_ios:
     :path: ".symlinks/plugins/url_launcher_ios/ios"
 
@@ -69,11 +52,8 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
   FBSDKShareKit: 18e8ba99d38e3e92c631120cdcf162c45b661e0f
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_facebook_auth: 64ee56852fa9c16d8e862172a0c0e2cc1286fe6a
-  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
   image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
-  share_plus: 8875f4f2500512ea181eef553c3e27dba5135aad
   url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
 
 PODFILE CHECKSUM: 14bc6b853395d3e672fdc1899a22feaa8cd47c7e

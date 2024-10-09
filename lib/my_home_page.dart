@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:social_share_flutter/components/facebook_share_button.dart';
+import 'package:social_share_flutter/components/pinterest_share_button.dart';
+import 'package:social_share_flutter/components/x_share_button.dart';
+
+import 'components/instagram_share_button.dart';
+import 'components/line_share_button.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({
@@ -11,7 +16,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   void initState() {
     super.initState();
@@ -33,8 +37,14 @@ class _MyHomePageState extends State<MyHomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               FacebookShareButton(),
-
-             
+              SizedBox(height: 20),
+              InstagramShareButton(),
+              SizedBox(height: 20),
+              LineShareButton(),
+              SizedBox(height: 20),
+              XShareButton(),
+              SizedBox(height: 20),
+              PinterestShareButton(),
             ],
           ),
         ),
